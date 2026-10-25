@@ -10,7 +10,7 @@ UPLOAD_FOLDER = 'uploads'
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
- items_db = [
+items_db = [
     {
         "id": 1,
         "title": "Sample Item with Image",
